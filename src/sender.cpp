@@ -91,7 +91,7 @@ void read_file()
   	double myvariable;
 	double times;
 	uint8_t int_remainder;
-	myfile=fopen("/home/pi/Desktop/Scripts/myapp.txt", "r");
+	myfile=fopen("/home/pi/Desktop/RTFL_Sensor/myapp.txt", "r");
 	fscanf(myfile,"%lf",&myvariable);
 	myvariable = roundf(100*myvariable)/100;
 

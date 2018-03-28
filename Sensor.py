@@ -8,7 +8,7 @@ TRIG = 37
 ECHO = 38
 
 logger = logging.getLogger('myapp')
-hdlr = logging.FileHandler('/home/pi/Desktop/Scripts/myapp.txt', mode='w')
+hdlr = logging.FileHandler('/home/pi/Desktop/RTFL_Sensor/myapp.txt', mode='w')
 #formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 #hdlr.setFormatter(formatter)
 logger.addHandler(hdlr)
